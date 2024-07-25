@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "vilas14ju"
+    bucket = "hyphaterrapro"
     key    = "your_tf_state_file.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }
